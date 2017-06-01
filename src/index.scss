@@ -1,0 +1,16 @@
+// define a common unit, feel free to change this as you see fit
+$UNIT: 8px;
+
+// lets create some classes!
+@for $i from 0 through 12 {
+  .p#{$i} { padding: $i * $UNIT !important; }
+  .pb#{$i} { padding-bottom: $i * $UNIT !important; }
+  .pt#{$i} { padding-top: $i * $UNIT !important; }
+  .pl#{$i} { padding-left: $i * $UNIT !important; }
+  .pr#{$i} { padding-right: $i * $UNIT !important; }
+  .m#{$i} { margin: $i * $UNIT !important; }
+  .mb#{$i} { margin-bottom: $i * $UNIT !important; }
+  .mt#{$i} { margin-top: $i * $UNIT !important; }
+  .ml#{$i} { margin-left: $i * $UNIT !important; }
+  .mr#{$i} { margin-right: $i * $UNIT !important; }
+}
