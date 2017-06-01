@@ -4,6 +4,7 @@
   "description": "Utility Classes for positioning elements, using a numerical system for padding and margin values.",
   "main": "index.js",
   "scripts": {
+    "start": "node compile.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,6 +26,7 @@
   },
   "homepage": "https://github.com/pcktmds/utility-classes-position#readme",
   "devDependencies": {
+    "@types/node-sass": "3.10.32",
     "node-sass": "4.5.3"
   }
 }
