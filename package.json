@@ -1,0 +1,27 @@
+{
+  "name": "utility-classes-position",
+  "version": "0.0.1",
+  "description": "Utility Classes for positioning elements, using a numerical system for padding and margin values.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcktmds/utility-classes-position.git"
+  },
+  "keywords": [
+    "css",
+    "positioning",
+    "margin",
+    "padding",
+    "utility",
+    "classes"
+  ],
+  "author": "Seth Rhodes <seth.rhodes35@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pcktmds/utility-classes-position/issues"
+  },
+  "homepage": "https://github.com/pcktmds/utility-classes-position#readme"
+}
